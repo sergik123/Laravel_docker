@@ -1,6 +1,6 @@
 ссылки на локальный проект по умолчанию:<br>
 сам сайт http://localhost:8000/ <br>
-phpmyadmin http://localhost:8081/
+phpmyadmin http://localhost:8080/
 <h1>При первом запуске проекта делаем такие комманды</h1>
 <p><b>1.</b> docker-compose build app</p>
 <p><b>2</b>.docker-compose up -d</p>
