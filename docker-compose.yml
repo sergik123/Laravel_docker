@@ -43,8 +43,7 @@ services:
       - ./docker-compose/nginx:/etc/nginx/conf.d/
     networks:
       - travellist
-
-    # phpmyadmin
+ # phpmyadmin
   phpmyadmin:
       depends_on:
         - db
@@ -57,7 +56,6 @@ services:
         MYSQL_ROOT_PASSWORD: password
       networks:
         - travellist
-
 networks:
   travellist:
     driver: bridge
